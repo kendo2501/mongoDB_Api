@@ -3,7 +3,7 @@ import { View, Text, FlatList, Button, StyleSheet } from 'react-native';
 import { Student } from '../types/Student';
 
 interface StudentListProps {
-  students: Student[]; // ✅ Now receiving students from props
+  students: Student[]; 
   onEdit: (student: Student) => void;
   onDelete: (student_id: string) => void;
 }
